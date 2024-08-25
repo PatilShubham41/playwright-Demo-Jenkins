@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "main": "./lib/index.js",
   "scripts": {
-    "build": "tsc",
-    "lint": "tslint -c tslint.json src/**/*.ts",
-    "prepublish": "npm run build",
-    "test": "npx playwright test & npx allure serve allure-results"
   },
   "keywords": [],
   "author": "",
